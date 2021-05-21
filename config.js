@@ -22,10 +22,18 @@ const byemsgimg = (numero, groupname) => {
 //Texto de despedidas na imagem quando welcome esta ativado
 //Obs: não coloque o texto longo para a imagem não sumir
 
-const menumsgimg = (numero, groupname) => {
-    return `Seja bem-vindo ${numero}\n\nAo menu do Brizas-bot`
+const menumsgimg = (numero, groupname, battery) => {
+    return `MENU DO BRIZAS-BOT COM 363 COMANDOS, BATERIA: ${battery}`
 }
 //Texto no menu da imagem quando welcome esta ativado
+//Obs: não coloque o texto longo para a imagem não sumir
+
+const titlemenumsgimg = 'BEM-VINDO'
+//Título no menu da imagem quando welcome esta ativado
+//Obs: não coloque o texto longo para a imagem não sumir
+
+const backgroundmenuimg = `https://i.imgur.com/tVKFNFk.png`
+//Link direto da imagem de fundo TAMANHO RECOMENDADO: 1280x720
 //Obs: não coloque o texto longo para a imagem não sumir
 
 const apikeyimgbb = 'f803ac10228ceed0df2420dd9d797c8a'
@@ -141,6 +149,8 @@ const vcard = 'BEGIN:VCARD\n'
 
 
 // Nem ouse mexer aqui se n quiser que de erro
+exports.backgroundmenuimg = backgroundmenuimg
+exports.titlemenumsgimg = titlemenumsgimg
 exports.menumsgimg = menumsgimg
 exports.gimagenotregister = gimagenotregister
 exports.sgooglenotregister = sgooglenotregister
