@@ -99,8 +99,6 @@ Pix
 
 [Gabriel](wa.me/+5511946817667)
 
-[Lucass](https://luc4rio.herokuapp.com/api)
-
 [Thoth](wa.me/+55d11930758170)
 
 ---
